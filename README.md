@@ -32,7 +32,7 @@ z = sqrt(-1)
 #####Arithmetic
 
 | Name of the Function | Job of the Function | 
-| ---|: --- :|
+| -------------------- | ------------------- |
 | plus	| Addition|
 | uplus	| Unary plus|
 | minus	| Subtraction |
@@ -59,8 +59,9 @@ z = sqrt(-1)
 | round	| Round to nearest decimal or integer
 
 #####Trigonometry
+
 | Name of the Function | Job of the Function | 
-| ---|: --- :|
+| -------------------- | ------------------- |
 | sin	| Sine of argument in radians
 | sind	| Sine of argument in degrees
 | asin	| Inverse sine in radians
@@ -102,8 +103,9 @@ z = sqrt(-1)
 | hypot	| Square root of sum of squares
 
 #####Exponents and Logarithms
+
 | Name of the Function | Job of the Function | 
-| ---|: --- :|
+| -------------------- | ------------------- |
 |exp	| Exponential
 | expm1	| Compute exp(x)-1 accurately for small values of x
 | log	| Natural logarithm
@@ -117,9 +119,11 @@ z = sqrt(-1)
 | realpow	| Array power for real-only output
 | realsqrt	| Square root for nonnegative real arrays
 | sqrt	| Square root
+
 #####Descriptive Statistics
+
 | Name of the Function | Job of the Function | 
-| ---|: --- :|
+| -------------------- | ------------------- |
 |corrcoef	Correlation coefficients
 | cov	| Covariance
 | max	| Largest elements in array
