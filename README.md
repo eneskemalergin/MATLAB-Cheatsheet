@@ -59,7 +59,6 @@ z = sqrt(-1)
 | round	| Round to nearest decimal or integer
 
 #####Trigonometry
-
 | Name of the Function | Job of the Function | 
 | -------------------- | ------------------- |
 | sin	| Sine of argument in radians
@@ -103,7 +102,6 @@ z = sqrt(-1)
 | hypot	| Square root of sum of squares
 
 #####Exponents and Logarithms
-
 | Name of the Function | Job of the Function | 
 | -------------------- | ------------------- |
 |exp	| Exponential
@@ -119,12 +117,10 @@ z = sqrt(-1)
 | realpow	| Array power for real-only output
 | realsqrt	| Square root for nonnegative real arrays
 | sqrt	| Square root
-
 #####Descriptive Statistics
-
 | Name of the Function | Job of the Function | 
 | -------------------- | ------------------- |
-|corrcoef	Correlation coefficients
+|corrcoef	| Correlation coefficients
 | cov	| Covariance
 | max	| Largest elements in array
 | cummax	| Cumulative maximum
@@ -139,15 +135,142 @@ z = sqrt(-1)
 | discretize	| Group numeric data into bins or categories
 
 #####Complex Numbers
+| Name of the Function | Job of the Function | 
+| -------------------- | ------------------- |
+| abs	| Absolute value and complex magnitude
+| angle	| Phase angle
+| complex	| Create complex array
+| conj	| Complex conjugate
+| cplxpair	| Sort complex numbers into complex conjugate pairs
+| i	| Imaginary unit
+| imag | Imaginary part of complex number
+| isreal	| Determine whether array is real
+| j	| Imaginary unit
+| real	| Real part of complex number
+| sign	Signum function
+| unwrap	| Correct phase angles to produce smoother phase plots
 #####Discrete Math
+| Name of the Function | Job of the Function | 
+| -------------------- | ------------------- |
+| factor	| Prime factors
+| factorial	| Factorial of input
+| gcd	| Greatest common divisor
+| isprime	| Determine which array elements are prime
+| lcm	| Least common multiple
+| nchoosek	| Binomial coefficient or all combinations
+| perms	| All possible permutations
+| primes	| Prime numbers less than or equal to input value
+| rat	| Rational fraction approximation
+| rats	| Rational output
 #####Polynomials
+| Name of the Function | Job of the Function | 
+| -------------------- | ------------------- |
+| poly | Polynomial with specified roots
+| polyder	| Polynomial derivative
+| polyeig	| Polynomial eigenvalue problem
+| polyfit	| Polynomial curve fitting
+| polyint	| Integrate polynomial analytically
+| polyval 	| Polynomial evaluation
+| polyvalm	| Matrix polynomial evaluation
+| residue	| Convert between partial fraction expansion and ratio of two polynomials
+| roots	| Polynomial roots
 #####Special Functions
-#####Cartesian Coordinate System Conversion
-#####Constants and Test Matrices
+| Name of the Function | Job of the Function | 
+| -------------------- | ------------------- |
+| airy 	| Airy Functions
+| besselh	| Bessel function of third kind (Hankel function)
+| besseli	| Modified Bessel function of first kind
+| besselj	| Bessel function of first kind
+| besselk	| Modified Bessel function of second kind
+| bessely	| Bessel function of second kind
+| beta	| Beta function
+| betainc	| Incomplete beta function
+| betaincinv	|Beta inverse cumulative distribution function
+| betaln	| Logarithm of beta function
+| ellipj	| Jacobi elliptic functions
+| ellipke	| Complete elliptic integrals of first and second kind
+| erf	| Error function
+| erfc	| Complementary error function
+| erfcinv | Inverse complementary error function
+| erfcx	| Scaled complementary error function
+| erfinv	| Inverse error function
+| expint	| Exponential integral
+| gamma	| Gamma function
+| gammainc	| Incomplete gamma function
+| gammaincinv	| Inverse incomplete gamma function
+| gammaln	| Logarithm of gamma function
+| legendre	| Associated Legendre functions
+| psi	| Psi (polygamma) function
 
+#####Cartesian Coordinate System Conversion
+| Name of the Function | Job of the Function | 
+| -------------------- | ------------------- |
+| cart2pol	| Transform Cartesian coordinates to polar or cylindrical
+| cart2sph	| Transform Cartesian coordinates to spherical
+| pol2cart	| Transform polar or cylindrical coordinates to Cartesian
+| sph2cart	| Transform spherical coordinates to Cartesian
+
+#####Constants and Test Matrices
+| Name of the Function | Job of the Function | 
+| -------------------- | ------------------- |
+| eps	| Floating-point relative accuracy
+| flintmax	| Largest consecutive integer in floating-point format
+| i	| Imaginary unit
+| j	| Imaginary unit
+| Inf	| Infinity
+| pi	| Ratio of circle's circumference to its diameter
+| NaN	| Not-a-Number
+| isfinite	| Array elements that are finite
+| isinf	| Array elements that are infinite
+| isnan	| Array elements that are NaN
+| compan	| Companion matrix
+| gallery	| Test matrices
+| hadamard	| Hadamard matrix
+| hankel	| Hankel matrix
+| hilb	| Hilbert matrix
+| invhilb	| Inverse of Hilbert matrix
+| magic	| Magic square
+| pascal	| Pascal matrix
+| rosser	| Classic symmetric eigenvalue test problem
+| toeplitz	| Toeplitz matrix
+| vander	| Vandermonde matrix
+| wilkinson	| Wilkinson's eigenvalue test matrix
 ####Linear Algebra
 #####Matrix Operations
+| Name of the Function | Job of the Function | 
+| -------------------- | ------------------- |
+| cross	| Cross product
+| dot	| Dot product
+| kron	| Kronecker tensor product
+| surfnorm	| Compute and display 3-D surface normals
+| tril	| Lower triangular part of matrix
+| triu	| Upper triangular part of matrix
+| transpose	| Transpose
 #####Linear Equations
+| Name of the Function | Job of the Function | 
+| -------------------- | ------------------- |
+| cond	| Condition number with respect to inversion
+| condest	| 1-norm condition number estimate
+| inv	| Matrix inverse
+| linsolve	| Solve linear system of equations
+| lscov	| Least-squares solution in presence of known covariance
+| lsqnonneg	| Solve nonnegative least-squares constraints problem
+| pinv	| Moore-Penrose pseudoinverse of matrix
+| rcond	| Reciprocal condition number
+| sylvester	| Solve Sylvester equation AX + XB = C for X
+| mldivide	| Solve systems of linear equations Ax = B for x
+| mrdivide	| Solve systems of linear equations xA = B for x
+| cond	| Condition number with respect to inversion
+| condest	| 1-norm condition number estimate
+| inv	| Matrix inverse
+| linsolve	| Solve linear system of equations
+| lscov	| Least-squares solution in presence of known covariance
+| lsqnonneg	| Solve nonnegative least-squares constraints problem
+| pinv	| Moore-Penrose pseudoinverse of matrix
+| rcond	| Reciprocal condition number
+| sylvester	| Solve Sylvester equation AX + XB = C for X
+| mldivide	| Solve systems of linear equations Ax = B for x
+| mrdivide	| Solve systems of linear equations xA = B for x
 #####Matrix Decomposition
 #####Eigenvalues and Singular Values
 #####Matrix Analysis
